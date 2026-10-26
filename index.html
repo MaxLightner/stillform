@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeeae2">
+  <meta name="description" content="STILLFORM is an editorial architectural website concept: architecture explained through its relationship to place, material and light. A digital study by POYARA.">
+  <title>STILLFORM — Architecture in Context</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/horizon-day.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page-loader" aria-hidden="true"><div class="loader-mark">S<span>.</span></div><span>AN ARCHITECTURAL STUDY</span></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="STILLFORM, back to beginning">
+      <span class="brand-symbol">S<span class="brand-point">.</span></span>
+      <span class="brand-wordmark">STILLFORM<small>ARCHITECTURAL PRACTICE</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#approach">Approach</a><a href="#studio">Studio</a>
+    </nav>
+    <a class="header-cta" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#work">Work</a><a href="#approach">Approach</a><a href="#studio">Studio</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="hero-index entrance"><span class="small-rule"></span> INDEPENDENT ARCHITECTURAL STUDY <span> / 001</span></div>
+        <div class="hero-content entrance">
+          <p class="eyebrow">ARCHITECTURE IN CONTEXT</p>
+          <h1 id="hero-title">A place<br>to <em>belong.</em></h1>
+          <p class="hero-description">We explore the relationship between a building and everything that surrounds it.</p>
+          <a class="text-link" href="#project"><span>Discover the Horizon House</span><svg viewBox="0 0 32 16" aria-hidden="true"><path d="M1 8h29M23 1l7 7-7 7"/></svg></a>
+        </div>
+        <div class="hero-bottom entrance"><span>01 / FEATURED RESIDENCE</span><span>SCROLL TO EXPLORE <span class="down-arrow">↓</span></span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-stage"><img id="hero-image" src="assets/horizon-day.webp" alt="Contemporary limestone residence opening to an infinity pool and a mountainous coast" width="1920" height="1080" fetchpriority="high"></div>
+        <div class="hero-visual-caption"><span>THE HORIZON HOUSE</span><span>STUDY 01 — COASTAL RESIDENCE</span></div>
+        <span class="hero-visual-border" aria-hidden="true"></span>
+      </div>
+      <div class="hero-progress" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro editorial-section" id="project" aria-labelledby="project-intro-title">
+      <div class="section-overline reveal"><span>001</span><span>THE HORIZON HOUSE</span><span>PROJECT NARRATIVE</span></div>
+      <div class="intro-grid">
+        <div class="intro-kicker reveal">THE DESIGN QUESTION <span class="index-number">01 — 03</span></div>
+        <div class="intro-main reveal">
+          <h2 id="project-intro-title">How can a home<br>meet the horizon<br><em>without dominating it?</em></h2>
+          <div class="intro-aside"><span class="intro-asterisk">✳</span><p>Instead of beginning with a signature shape, this study starts with a relationship: the land, the water and the way people move between shelter and open air.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="narrative-section" id="approach" aria-labelledby="narrative-title">
+      <div class="narrative-heading reveal"><span class="eyebrow">ARCHITECTURAL THINKING / IN THREE MOMENTS</span><h2 id="narrative-title">The decisions<br><em>behind the form.</em></h2></div>
+      <div class="narrative-scrollspace" id="narrative-scrollspace">
+        <div class="narrative-sticky">
+          <div class="narrative-image-stage" aria-live="off">
+            <img class="narrative-image is-current" data-narrative-image="0" src="assets/horizon-day.webp" alt="Horizontal roof plane follows the landscape horizon" width="1920" height="1080" loading="lazy">
+            <img class="narrative-image" data-narrative-image="1" src="assets/horizon-detail.webp" alt="Architectural detail of the roof, terrace, olive tree and glazed living space" width="1920" height="1080" loading="lazy">
+            <img class="narrative-image" data-narrative-image="2" src="assets/horizon-dusk.webp" alt="The same residence at dusk with warm interior lighting reflected in the pool" width="1920" height="1080" loading="lazy">
+            <div class="narrative-image-caption"><span id="scene-caption">THE ROOF AS A HORIZONTAL DATUM</span><span id="scene-counter">01 / 03</span></div>
+          </div>
+          <div class="narrative-panel">
+            <div class="narrative-panel-top"><span>DESIGN INTENT</span><span id="narrative-progress-label">01 — THE LINE</span></div>
+            <div class="narrative-panel-main" aria-live="polite">
+              <div class="large-num" id="narrative-num">01</div>
+              <h3 id="narrative-step-title">A line drawn<br>from the <em>horizon.</em></h3>
+              <p id="narrative-step-text">The continuous roof holds the composition together. Its quiet horizontal gesture allows the surrounding land and distant water to remain the focus.</p>
+            </div>
+            <div class="scene-controls" role="group" aria-label="Explore architectural decisions">
+              <button type="button" class="scene-select active" data-scene="0" aria-pressed="true"><span>01</span><span>THE LINE</span></button>
+              <button type="button" class="scene-select" data-scene="1" aria-pressed="false"><span>02</span><span>THE THRESHOLD</span></button>
+              <button type="button" class="scene-select" data-scene="2" aria-pressed="false"><span>03</span><span>THE LIGHT</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="scene-scroll-trigger" data-trigger="0" aria-hidden="true"></div>
+        <div class="scene-scroll-trigger" data-trigger="1" aria-hidden="true"></div>
+        <div class="scene-scroll-trigger" data-trigger="2" aria-hidden="true"></div>
+      </div>
+      <div class="narrative-footer"><span>FOLLOW THE STORY OR SELECT A MOMENT</span><span>SCROLL TO PROGRESS ↓</span></div>
+    </section>
+
+    <section class="light-section editorial-section" id="light" aria-labelledby="light-title">
+      <div class="section-overline reveal"><span>002</span><span>ATMOSPHERE AS ARCHITECTURE</span><span>AN EXPLORATION</span></div>
+      <div class="light-intro reveal"><p class="eyebrow">THE SAME BUILDING, A DIFFERENT HOUR</p><h2 id="light-title">Light changes.<br><em>The architecture stays.</em></h2><p>Move between daylight and dusk to see how material, transparency and the relationship between inside and outside transform over time.</p></div>
+      <div class="comparison reveal">
+        <div class="compare-visual" id="compare-visual" role="img" aria-label="Interactive comparison of the same coastal residence in daylight and at dusk">
+          <img class="compare-under" src="assets/horizon-dusk.webp" alt="" width="1920" height="1080" loading="lazy">
+          <div class="compare-top" id="compare-top"><img src="assets/horizon-day.webp" alt="" width="1920" height="1080" loading="lazy"></div>
+          <div class="compare-line" id="compare-line"><div class="compare-handle" aria-hidden="true">← →</div></div>
+          <span class="compare-label compare-label-left">DAYLIGHT</span><span class="compare-label compare-label-right">BLUE HOUR</span>
+          <input id="compare-range" type="range" min="0" max="100" value="50" aria-label="Compare daylight and evening photographs" title="Drag to compare lighting">
+        </div>
+        <div class="compare-foot"><span>DRAG TO EXPLORE THE SHIFT IN ATMOSPHERE</span><span>01 / 02 — LIGHT STUDY</span></div>
+      </div>
+    </section>
+
+    <section class="detail-block" aria-label="Materials and atmosphere">
+      <div class="detail-copy"><span class="eyebrow">03 / THE EXPERIENCE OF MATERIAL</span><h2>Nothing added<br>without <em>reason.</em></h2><p>Limestone absorbs the warmth of the landscape. Glass dissolves the edge between living room and terrace. A single olive tree makes the passage of time visible.</p><div class="material-pair"><span>STONE / GLASS / WATER</span><span>THE HORIZON HOUSE</span></div></div>
+      <div class="detail-visual"><img src="assets/horizon-detail.webp" alt="Close architectural view of pale limestone, black glazing, the courtyard and its olive tree" width="1920" height="1080" loading="lazy"></div>
+    </section>
+
+    <section class="work-section editorial-section" id="work" aria-labelledby="work-title">
+      <div class="section-overline reveal"><span>003</span><span>SELECTED STUDIES</span><span>AN EDITED PORTFOLIO</span></div>
+      <div class="work-heading reveal"><h2 id="work-title">Different spaces.<br><em>One point of view.</em></h2><p>Every project begins with a different condition. The work is not about repeating a visual signature, but making the essential visible.</p></div>
+      <div class="project-list">
+        <button class="project-card reveal" data-project="atrium" type="button" aria-label="Explore The Atrium, concept interior project">
+          <div class="project-card-image"><img src="assets/atrium.webp" alt="Warm stone atrium with a sculptural curved staircase and shafts of sunlight" width="1600" height="900" loading="lazy"></div>
+          <div class="project-card-info"><span>02 / SPATIAL CONCEPT</span><h3>The Atrium</h3><span class="project-card-link">EXPLORE STUDY <b>↗</b></span></div>
+        </button>
+        <button class="project-card project-card-offset reveal" data-project="night" type="button" aria-label="Explore The Cliff House, concept residence project">
+          <div class="project-card-image"><img src="assets/night-house.webp" alt="Contemporary residence on a rocky coastal slope lit at twilight" width="1600" height="900" loading="lazy"></div>
+          <div class="project-card-info"><span>03 / RESIDENTIAL CONCEPT</span><h3>The Cliff House</h3><span class="project-card-link">EXPLORE STUDY <b>↗</b></span></div>
+        </button>
+      </div>
+    </section>
+
+    <section class="studio-section" id="studio" aria-labelledby="studio-title">
+      <div class="studio-label">STILLFORM / A DESIGN PHILOSOPHY</div>
+      <h2 id="studio-title" class="reveal">We don't start<br>with an image.<br><em>We start with a question.</em></h2>
+      <div class="studio-bottom reveal"><p>An architectural portfolio can do more than display finished forms. It can reveal the thinking that makes those forms meaningful.</p><a class="light-link" href="#contact">LET'S TALK ABOUT YOUR PROJECT <span>↗</span></a></div>
+      <span class="studio-background-symbol" aria-hidden="true">S.</span>
+    </section>
+
+    <section class="contact-section editorial-section" id="contact">
+      <div class="contact-overline">THE NEXT CONVERSATION</div>
+      <div class="contact-grid"><h2>Every place<br>has a <em>story.</em></h2><div><p>This is a fictional architectural portfolio created as a design and interaction study by POYARA. The imagery and project narratives are conceptual.</p><a href="https://maxlightner.github.io/poyara/" target="_blank" rel="noopener noreferrer" class="contact-link">Explore POYARA <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#top">STILLFORM<span>.</span></a><div><span>ARCHITECTURAL CONCEPT — NOT A REAL PRACTICE</span><span>DESIGN STUDY BY <a href="https://maxlightner.github.io/poyara/" target="_blank" rel="noopener noreferrer">POYARA</a></span></div><button class="back-top" type="button" aria-label="Back to top">↑</button></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close" aria-label="Close project">×</button><img id="dialog-image" src="assets/atrium.webp" alt="" width="1600" height="900"><div class="dialog-copy"><span class="eyebrow" id="dialog-label">SPATIAL STUDY</span><h2 id="dialog-title">The Atrium</h2><p id="dialog-text">The meeting of movement and light.</p><span class="dialog-foot">ILLUSTRATIVE ARCHITECTURAL CONCEPT / POYARA</span></div></dialog>
+</body>
+</html>
